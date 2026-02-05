@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="Contact EcoAxis Global Limited for business inquiries, partnerships, and investment discussions." /><title>Contact Us | EcoAxis Global Limited</title><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" /><link rel="stylesheet" href="assets/css/styles.css" /></head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header><div class="container nav"><a class="logo" href="index.html">EcoAxis <span>Global</span></a><button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">☰</button><ul class="nav-links" id="primary-nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="property.html">Property</a></li><li><a href="agriculture.html">Agriculture</a></li><li><a href="trade.html">Import & Export</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul></div></header>
+    <main id="main-content"><section class="page-hero"><img class="page-hero__bg" src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1800&q=80" alt="Professional business office reception" /><div class="container page-hero__content"><p class="eyebrow">Contact EcoAxis Global Limited</p><h1>Let’s discuss projects, partnerships, and investment opportunities.</h1></div></section>
+      <section class="section"><div class="container"><div class="grid grid-2"><article class="highlight-box" id="partnership"><h2>General Inquiries</h2><p>We welcome conversations with clients, landowners, suppliers, institutional buyers, and strategic investors. Share your inquiry and our team will respond promptly.</p><p><strong>Email:</strong> info@ecoaxisglobal.com</p><p><strong>Phone:</strong> +234 000 000 0000</p><p><strong>Office:</strong> Victoria Island, Lagos, Nigeria</p></article><iframe class="map-frame" title="Office location map placeholder" loading="lazy" src="https://www.google.com/maps?q=Lagos,+Nigeria&output=embed"></iframe></div></div></section>
+      <section class="section section--muted"><div class="container"><h2>Send an Inquiry</h2>
+        <form id="contact-form" action="https://formsubmit.co/info@ecoaxisglobal.com" method="POST">
+          <input type="hidden" name="_subject" value="New EcoAxis Website Inquiry" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://www.ecoaxisglobal.com/thank-you" />
+          <div class="form-grid">
+            <div><label for="name">Name *</label><input type="text" id="name" name="name" required /></div>
+            <div><label for="email">Email *</label><input type="email" id="email" name="email" required /></div>
+            <div><label for="phone">Phone *</label><input type="tel" id="phone" name="phone" required /></div>
+            <div><label for="inquiryType">Inquiry Type *</label><select id="inquiryType" name="inquiryType" required><option value="">Select an option</option><option>Property Development</option><option>Agriculture & Agribusiness</option><option>Import & Export Trade</option><option>Partnership / Investment</option><option>General</option></select></div>
+            <div class="full"><label for="message">Message *</label><textarea id="message" name="message" required></textarea></div>
+          </div>
+          <div class="actions" style="margin-top: 1rem"><button class="btn btn--primary" type="submit">Submit Inquiry</button></div>
+          <p id="status-message" class="status-message" aria-live="polite"></p>
+        </form>
+      </div></section>
+    </main>
+    <footer><div class="container footer-grid"><div><p><strong>EcoAxis Global Limited</strong></p><p>Driving sustainable value in real estate, agribusiness, and global trade.</p><p class="small">Email: info@ecoaxisglobal.com | Web: www.ecoaxisglobal.com</p></div><p class="small">© <span id="year"></span> EcoAxis Global Limited. All rights reserved.</p></div></footer>
+    <script src="assets/js/main.js"></script><script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body></html>
